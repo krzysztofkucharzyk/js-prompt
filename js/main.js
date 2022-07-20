@@ -1,7 +1,7 @@
 function show () {
     let num = prompt('Podaj dowolną liczbę');
 
-    return console.log(num);
+    return num;
 }
 
-show();
+console.log(show());
